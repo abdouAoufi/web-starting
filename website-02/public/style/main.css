@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
    margin: 0;
@@ -12,7 +12,7 @@ a {
 }
 
 body {
-   font-family: 'Karla', sans-serif;
+   font-family: 'Mukta', sans-serif;
 }
 
 .capital{
