@@ -212,13 +212,8 @@ body {
    cursor: pointer;
 }
 
-
 .course-sub-link {
    margin-top: 12px;
    color: #aa5ad8;
    cursor: pointer;
-   transition: .3s ease-in-out;
-}
-.course-sub-link:hover {
-   color: #333;
 }
