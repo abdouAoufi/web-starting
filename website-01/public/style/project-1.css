@@ -7,6 +7,9 @@ body {
 
 .navbar {
    padding: 1rem 2rem;
+   background-color: black;
+   box-shadow: 0px 4px 5px -3px #222;
+
 }
 
 .nav-outer-container {
@@ -25,7 +28,7 @@ body {
 .nav-logo {
    height: 10px;
    width: 45px;
-   background-color: black;
+   background-color: white;
    border-radius: 12px;
    margin-bottom: 12px;
 }
@@ -34,13 +37,14 @@ body {
    width: 10px;
    height: 10px;
    border-radius: 50%;
-   background-color: black;
+   background-color: white;
 }
 
 
 .nav-list-links {
    list-style: none;
    display: flex;
+   
 }
 
 .nav-list-links li {
@@ -70,6 +74,7 @@ body {
 #join {
    background-color: #9c1de7;
    color: white;
+   font-weight: 555;
 }
 #join:hover {
    background-color: #b944fd;
@@ -96,7 +101,7 @@ body {
 
 .hero-sub-heading {
    font-weight: 500;
-   color: #9c1de7;
+   color: #7e03c5;
 
 }
 
@@ -131,8 +136,14 @@ body {
    padding: 0.8rem 1.6rem;
    border-radius: 24px;
    border: 0;
+   box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
    font-weight: 500;
    cursor: pointer;
+}
+.hero-watch:hover{
+   background-color: white;
+   color: #000;
+   border: 1px solid #000;
 }
 
 .hero-simple-link {
@@ -147,6 +158,7 @@ body {
    flex: 1;
    border-radius: 8px;
    overflow: hidden;
+   box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
 }
 
 
@@ -197,23 +209,26 @@ body {
 .course-enroll-btn {
    margin-top: 1.5rem;
    border: 1px solid #9c1de7;
-   color: #9c1de7;
-   background-color: unset;
+   color: white;
+   background-color: #9c1de7 ;
    padding: 0.8rem 1.6rem;
    border-radius: 24px;
-   font-weight: 400;
+   font-weight: 500;
    font-size: 1rem;
    transition: .3s ease-in-out;
 }
 
 .course-enroll-btn:hover {
-   background-color: #aa5ad8;
-   color: white;
+   background-color: white;
+   color: #7e03c5;
    cursor: pointer;
 }
 
 .course-sub-link {
+ 
    margin-top: 12px;
    color: #aa5ad8;
    cursor: pointer;
+
+
 }
