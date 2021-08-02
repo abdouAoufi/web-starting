@@ -60,26 +60,33 @@ body {
    border-radius: 24px;
    border: 0;
    font-weight: 500;
+   cursor: pointer;
+   transition: .3s ease-in-out;
+}
+.nav-auth-btn:hover {
+   color: #9c1de7;
 }
 
 #join {
    background-color: #9c1de7;
    color: white;
 }
-
+#join:hover {
+   background-color: #b944fd;
+}
 
 .hero-section {
    width: 100%;
    padding: 2rem;
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    margin-top: 4rem;
 }
 
 
 .hero-text-container {
    flex: 1;
-   margin-right: 1rem;
+   margin-right: 5rem;
 }
 
 .hero-outer-container {
@@ -125,6 +132,7 @@ body {
    border-radius: 24px;
    border: 0;
    font-weight: 500;
+   cursor: pointer;
 }
 
 .hero-simple-link {
@@ -146,7 +154,6 @@ body {
 
 
 .courses {
-
    padding: 4rem;
 }
 
@@ -158,15 +165,15 @@ body {
 
 .course {
    background-color: white;
-   border-radius: 8px;
-   padding: 2rem 4rem;
+   border-radius: 5px;
+   padding: 2rem 3rem;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
-   -webkit-box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
-   -moz-box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
+   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.18);
+   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.18);
+   -moz-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.18);
 }
 
 
@@ -196,6 +203,7 @@ body {
    border-radius: 24px;
    font-weight: 400;
    font-size: 1rem;
+   transition: .3s ease-in-out;
 }
 
 .course-enroll-btn:hover {
@@ -208,4 +216,9 @@ body {
 .course-sub-link {
    margin-top: 12px;
    color: #aa5ad8;
+   cursor: pointer;
+   transition: .3s ease-in-out;
+}
+.course-sub-link:hover {
+   color: #333;
 }

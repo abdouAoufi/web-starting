@@ -9,6 +9,10 @@
 a {
    text-decoration: none;
    color: black;
+   transition: .3s ease-in-out;
+}
+a:hover {
+   color: #ba53de;
 }
 
 body {
