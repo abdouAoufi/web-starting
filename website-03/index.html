@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculatrice</title>
+    <link rel="stylesheet" href="./public/style/main.css">
+    <link rel="stylesheet" href="./public/style/project-03.css">
   </head>
   <body>
     <!-- ! MAIN CONTENT -->
@@ -13,15 +15,13 @@
         <div class="inner-container">
           <!-- ? SCREEN SECTION -->
           <div class="calc-screen">
-            <div class="screen-dark-button"></div>
+            <div class="screen-dark-button">
+              <img src="./assets/dark.svg" alt="dark" width="25px">
+            </div>
             <!-- ? output container -->
             <div class="screen-output-container">
-              <div class="screen-opertaion">
                 <p class="screen-opertaion-number">45 + 20 * 10</p>
-              </div>
-              <div class="screen-result">
                 <p class="screen-result-number">105</p>
-              </div>
             </div>
           </div>
           <!-- ? BUTTONS SECTION -->
@@ -29,16 +29,16 @@
             <div class="button-container">
               <div class="button-inner-container">
                 <!-- ? single row -->
-                <div class="buttons-single-btn">
+                <div id="ac" class="buttons-single-btn">
                   <span>AC</span>
                 </div>
-                <div class="buttons-single-btn">
+                <div class=" upbtn buttons-single-btn">
                   <span>C</span>
                 </div>
-                <div class="buttons-single-btn">
+                <div class=" upbtn buttons-single-btn">
                   <span>%</span>
                 </div>
-                <div class="buttons-single-btn">
+                <div class=" opr buttons-single-btn">
                   <span>/</span>
                 </div>
 
@@ -52,7 +52,7 @@
                 <div class="buttons-single-btn">
                   <span>9</span>
                 </div>
-                <div class="buttons-single-btn">
+                <div class=" opr buttons-single-btn">
                   <span>x</span>
                 </div>
 
@@ -66,7 +66,7 @@
                 <div class="buttons-single-btn">
                   <span>6</span>
                 </div>
-                <div class="buttons-single-btn">
+                <div class=" opr buttons-single-btn">
                   <span>-</span>
                 </div>
 
@@ -80,7 +80,7 @@
                 <div class="buttons-single-btn">
                   <span>3</span>
                 </div>
-                <div class="buttons-single-btn">
+                <div class=" opr buttons-single-btn">
                   <span>+</span>
                 </div>
 
@@ -94,7 +94,7 @@
                 <div class="buttons-single-btn">
                   <span>e</span>
                 </div>
-                <div class="buttons-single-btn">
+                <div id="equal" class="buttons-single-btn">
                   <span>=</span>
                 </div>
               </div>
