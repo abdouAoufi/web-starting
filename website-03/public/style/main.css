@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,400;1,700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+.capital{
+   text-transform: uppercase;
+   color: white ;
+}
